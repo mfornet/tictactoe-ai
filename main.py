@@ -1,10 +1,11 @@
+#!/usr/bin/python3
 from settings import *
 import strategy
 
 import pygame, sys
 from pygame.locals import QUIT, MOUSEBUTTONUP
 
-from lib import Board
+from visual import Board
 from game import TicTacToe
 
 def main():
