@@ -4,6 +4,10 @@ Tic-Tac-Toc game that accept playing against a human or a computer.
 
 Currently implemented random agent and montecarlo agent. The later is impossible to beat.
 
+# Game play
+
+> ./main.py
+
 # Game settings
 
 Most of the settings of the game can be changed in the script settings.py
@@ -25,11 +29,7 @@ See `strategy/random.py` for an example.
 To register your player you need to update the file strategy/__init__.py. Import your player
 and update the PLAYER_NAMES dict. Optionally you can add your player name in the settings.py file or use it directly in one of the players.
 
-# Disclaimer
+# Credits
 
-The pygame implementation was extracted from github.com/{user}/pygame-tictactoe. I adapted it to my project in order to accept new programatic strategies. Also modes (Human VS Computer) and (Computer VS Computer) are valid.
+The pygame implementation was extracted from http://github.com/kgodey/pygame-tictactoe. I adapted it to my project in order to accept new programatic strategies. Also modes (Human VS Computer) and (Computer VS Computer) are valid.
 
-# Author
-
-Marcelo Fornet Fornés
-email: mfornet94@gmail.com
