@@ -6,8 +6,8 @@ MONTECARLO = 'Montecarlo'
 
 # Match players
 
-PLAYER0 = USER
-PLAYER1 = MONTECARLO
+PLAYER0 = MONTECARLO
+PLAYER1 = USER
 
 # Board parameters
 
